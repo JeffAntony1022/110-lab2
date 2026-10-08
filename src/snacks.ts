@@ -1,5 +1,5 @@
 import { boldText } from './animation';
-let snacks: string[] = ["chips", "cookies", "candy", "popcorn", "pretzels"];
+let snacks: string[] = ["chips", "cookies", "candy", "popcorn", "pretzels", "shrimp chips", "nuts", "fruits", "trail mix", "fruit snacks", "granola bars"];
 
 export function getSnack(): string{
     return boldText(snacks[0]); 
