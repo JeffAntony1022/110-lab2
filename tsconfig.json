@@ -1,22 +1,19 @@
-{
-	"compilerOptions": {
+{ 
 
-		// Treat files as modules even if it doesn't use import/export
-		"moduleDetection": "force",
+"compilerOptions": {
 
-		// Ignore module structure
-		"module": "Preserve",
+   "target": "es2020",
 
-		// Allow JSON modules to be imported
-		"resolveJsonModule": true,
+   "module": "commonjs",
 
-		// Allow JS files to be imported from TS and vice versa
-		"allowJs": true,
+   "strict": true,
 
-		// Use correct ESM import behavior
-		"esModuleInterop": true,
+   "esModuleInterop": true,
 
-		// Disallow features that require cross-file awareness
-		"isolatedModules": true,
-	},
+   "skipLibCheck": true
+
+ },
+
+ "include": ["src"]
+ 
 }
